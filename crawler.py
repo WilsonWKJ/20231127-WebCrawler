@@ -17,7 +17,7 @@ chrome_options.binary_location = os.path.join(os.getcwd(), r"chrome-win64\chrome
 # print(chrome_options.binary_location)
 service = Service(executable_path=os.path.join(os.getcwd(), r"chromedriver-win64\chromedriver.exe")) 
 # Webpage URL
-webpage_url = r'https://developer-console-tutkint.kalayservice.com'
+# webpage_url = r'https://developer-console-tutkint.kalayservice.com'
 driver = webdriver.Chrome(service=service, options=chrome_options)# chrome_options are deprecated
 
 driver.get("https://www.goopi.co/")
